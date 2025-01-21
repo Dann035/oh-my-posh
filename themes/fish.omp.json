@@ -1,5 +1,6 @@
 {
   "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "version": 3,
   "blocks": [
     {
       "alignment": "left",
@@ -11,7 +12,7 @@
           "type": "status"
         },
         {
-          "foreground": "#100e23",
+          "foreground": "#000000",
           "style": "plain",
           "template": " \uf0e7 ",
           "type": "root"
@@ -45,11 +46,13 @@
           "foreground": "#007ACC",
           "style": "plain",
           "template": "\ue0b0 ",
-          "type": "text"
+          "type": "text",
+          "properties": {
+            "style": "bold"
+          }
         }
       ],
       "type": "prompt"
     }
-  ],
-  "version": 3
+  ]
 }
