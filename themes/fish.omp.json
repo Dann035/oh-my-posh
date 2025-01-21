@@ -5,7 +5,7 @@
       "alignment": "left",
       "segments": [
         {
-          "foreground": "#ffffff",
+          "foreground": "#000000",
           "style": "plain",
           "template": " {{ reason .Code }}",
           "type": "status"
@@ -24,7 +24,7 @@
         },
         {
           "background": "#007ACC",
-          "foreground": "#ffffff",
+          "foreground": "#000000",
           "properties": {
             "folder_icon": "\uf115",
             "folder_separator_icon": " \ue0b1 ",
@@ -35,8 +35,8 @@
           "type": "path"
         },
         {
-          "background": "#007ACC",
-          "foreground": "#ffffff",
+          "background": "#f5dc00",
+          "foreground": "#000000",
           "style": "plain",
           "template": "<#ffffff>\ue0b1</> {{ .HEAD }} ",
           "type": "git"
